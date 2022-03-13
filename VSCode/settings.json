@@ -61,7 +61,10 @@
   },
   "window.menuBarVisibility": "compact",
   "editor.fontFamily": "'JetBrains Mono Regular', 'Fira Code', 'Consolas'",
+  "editor.fontSize": 15,
   "editor.fontLigatures": true,
+  "editor.lineHeight": 22,
+  "editor.fontWeight": "300",
   "debug.console.fontFamily": "JetBrains Mono Regular",
   "markdown.preview.fontFamily": "JetBrains Mono Regular,-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif",
   "editor.tabCompletion": "on",
@@ -200,16 +203,9 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
-  "editor.renderIndentGuides": false,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  "todo.timekeeping.finished.time": false,
-  "todo.timekeeping.finished.enabled": false,
-  "todo.colors.done": "#50fa7b",
-  "todo.colors.cancelled": "#ff5555",
-  "todo.colors.code": "#8be9fd",
-  "todo.colors.comment": "#6272a4",
   "security.workspace.trust.untrustedFiles": "open",
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
@@ -234,10 +230,8 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font Mono', 'Fira Code', 'Consolas'",
-  "workbench.colorTheme": "Dracula"
+  "workbench.colorTheme": "Default Light+"
 }
