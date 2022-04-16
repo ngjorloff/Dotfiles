@@ -1,11 +1,9 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -23,8 +21,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -36,19 +33,15 @@
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "initialRows": 40,
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "bellStyle": "none",
             "colorScheme": "Dracula",
-            "font": 
-            {
+            "font": {
                 "face": "JetBrainsMono Nerd Font Mono"
             }
         },
-        "list": 
-        [
+        "list": [
             {
                 "colorScheme": "Gruvbox Dark",
                 "cursorShape": "filledBox",
@@ -60,8 +53,7 @@
             },
             {
                 "cursorShape": "filledBox",
-                "font": 
-                {
+                "font": {
                     "face": "JetBrainsMono Nerd Font Mono"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -73,8 +65,7 @@
                 "bellStyle": "none",
                 "colorScheme": "Dracula",
                 "cursorShape": "filledBox",
-                "font": 
-                {
+                "font": {
                     "face": "JetBrainsMono Nerd Font Mono",
                     "weight": "normal"
                 },
@@ -85,8 +76,7 @@
                 "source": "Git"
             },
             {
-                "font": 
-                {
+                "font": {
                     "face": "JetBrainsMono Nerd Font Mono"
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -102,8 +92,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -195,6 +184,29 @@
             "selectionBackground": "#E6D4A3",
             "white": "#978771",
             "yellow": "#CC881A"
+        },
+        {
+            "name": "Gruvbox Light",
+            "black": "#fbf1c7",
+            "red": "#9d0006",
+            "green": "#79740e",
+            "yellow": "#b57614",
+            "blue": "#076678",
+            "purple": "#8f3f71",
+            "cyan": "#427b58",
+            "white": "#3c3836",
+            "brightBlack": "#9d8374",
+            "brightRed": "#cc241d",
+            "brightGreen": "#98971a",
+            "brightYellow": "#d79921",
+            "brightBlue": "#458588",
+            "brightPurple": "#b16186",
+            "brightCyan": "#689d69",
+            "brightWhite": "#7c6f64",
+            "background": "#fbf1c7",
+            "foreground": "#282828",
+            "selectionBackground": "#d5c4a1",
+            "cursorColor": "#282828"
         },
         {
             "background": "#282C34",
