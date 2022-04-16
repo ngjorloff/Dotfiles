@@ -6,6 +6,8 @@ $ompTheme = "$ompPath\gruvboxlight.omp.json"
 
 oh-my-posh --init --shell pwsh --config "$ompTheme" | Invoke-Expression
 
+Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+
 function repos {
     Set-Location "$env:USERPROFILE\source\repos"
 }
@@ -15,5 +17,5 @@ function nvimconf {
 }
 
 function psconf {
-    nvim "$env:USERPROFILE\Documents\Powershell\MicroSoft.PowerShell_profile.ps1"
+    nvim $PROFILE
 }
