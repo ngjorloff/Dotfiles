@@ -13,6 +13,8 @@ oh-my-posh --init --shell pwsh --config "$ompTheme" | Invoke-Expression
 # Set-PSReadLineOption -PredictionSource HistoryAndPlugin
 # Set-PSReadLineOption -PredictionViewStyle ListView
 
+Invoke-Expression -Command $(gh completion -s powershell | Out-String)
+
 function repos {
     Set-Location "$env:USERPROFILE\source\repos"
 }
