@@ -1,9 +1,11 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -21,7 +23,8 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -33,17 +36,21 @@
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "initialRows": 40,
-    "profiles": {
-        "defaults": {
+    "profiles": 
+    {
+        "defaults": 
+        {
             "bellStyle": "none",
             "colorScheme": "Dracula",
-            "font": {
+            "font": 
+            {
                 "face": "JetBrainsMono Nerd Font Mono"
             }
         },
-        "list": [
+        "list": 
+        [
             {
-                "colorScheme": "Gruvbox Dark",
+                "colorScheme": "nord",
                 "cursorShape": "filledBox",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
@@ -53,7 +60,8 @@
             },
             {
                 "cursorShape": "filledBox",
-                "font": {
+                "font": 
+                {
                     "face": "JetBrainsMono Nerd Font Mono"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -65,7 +73,8 @@
                 "bellStyle": "none",
                 "colorScheme": "Dracula",
                 "cursorShape": "filledBox",
-                "font": {
+                "font": 
+                {
                     "face": "JetBrainsMono Nerd Font Mono",
                     "weight": "normal"
                 },
@@ -76,7 +85,8 @@
                 "source": "Git"
             },
             {
-                "font": {
+                "font": 
+                {
                     "face": "JetBrainsMono Nerd Font Mono"
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -92,7 +102,8 @@
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -186,27 +197,27 @@
             "yellow": "#CC881A"
         },
         {
-            "name": "Gruvbox Light",
-            "black": "#fbf1c7",
-            "red": "#9d0006",
-            "green": "#79740e",
-            "yellow": "#b57614",
+            "background": "#FBF1C7",
+            "black": "#FBF1C7",
             "blue": "#076678",
-            "purple": "#8f3f71",
-            "cyan": "#427b58",
-            "white": "#3c3836",
-            "brightBlack": "#9d8374",
-            "brightRed": "#cc241d",
-            "brightGreen": "#98971a",
-            "brightYellow": "#d79921",
+            "brightBlack": "#9D8374",
             "brightBlue": "#458588",
-            "brightPurple": "#b16186",
-            "brightCyan": "#689d69",
-            "brightWhite": "#7c6f64",
-            "background": "#fbf1c7",
+            "brightCyan": "#689D69",
+            "brightGreen": "#98971A",
+            "brightPurple": "#B16186",
+            "brightRed": "#CC241D",
+            "brightWhite": "#7C6F64",
+            "brightYellow": "#D79921",
+            "cursorColor": "#282828",
+            "cyan": "#427B58",
             "foreground": "#282828",
-            "selectionBackground": "#d5c4a1",
-            "cursorColor": "#282828"
+            "green": "#79740E",
+            "name": "Gruvbox Light",
+            "purple": "#8F3F71",
+            "red": "#9D0006",
+            "selectionBackground": "#D5C4A1",
+            "white": "#3C3836",
+            "yellow": "#B57614"
         },
         {
             "background": "#282C34",
@@ -391,6 +402,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#2E3440",
+            "black": "#3B4252",
+            "blue": "#81A1C1",
+            "brightBlack": "#4C566A",
+            "brightBlue": "#81A1C1",
+            "brightCyan": "#8FBCBB",
+            "brightGreen": "#A3BE8C",
+            "brightPurple": "#B48EAD",
+            "brightRed": "#BF616A",
+            "brightWhite": "#ECEFF4",
+            "brightYellow": "#EBCB8B",
+            "cursorColor": "#ECEFF4",
+            "cyan": "#88C0D0",
+            "foreground": "#D8DEE9",
+            "green": "#A3BE8C",
+            "name": "nord",
+            "purple": "#B48EAD",
+            "red": "#BF616A",
+            "selectionBackground": "#ECEFF4",
+            "white": "#E5E9F0",
+            "yellow": "#EBCB8B"
         }
     ]
 }
