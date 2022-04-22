@@ -6,12 +6,12 @@ Set-Alias vg nvim-qt.exe
 # Oh my Posh
 
 $ompPath = "$env:LOCALAPPDATA\Programs\oh-my-posh\themes"
-$ompTheme = "$ompPath\gruvboxlight.omp.json"
+$ompTheme = "$ompPath\nord.omp.json"
 
 oh-my-posh --init --shell pwsh --config "$ompTheme" | Invoke-Expression
 
-Set-PSReadLineOption -PredictionSource HistoryAndPlugin
-Set-PSReadLineOption -PredictionViewStyle ListView
+# Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+# Set-PSReadLineOption -PredictionViewStyle ListView
 
 function repos {
     Set-Location "$env:USERPROFILE\source\repos"
@@ -20,7 +20,7 @@ function repos {
 # Configs
 
 function nvimconf {
-    Set-Location "$env:LOCALAPPDATA\nvim"
+    nvim "$env:LOCALAPPDATA\nvim\init.lua"
 }
 
 function psconf {
