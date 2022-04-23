@@ -13,6 +13,8 @@ oh-my-posh --init --shell pwsh --config "$ompTheme" | Invoke-Expression
 # Set-PSReadLineOption -PredictionSource HistoryAndPlugin
 # Set-PSReadLineOption -PredictionViewStyle ListView
 
+# GitHub cli completion
+
 Invoke-Expression -Command $(gh completion -s powershell | Out-String)
 
 function repos {
@@ -25,7 +27,7 @@ function nvimconf {
     nvim "$env:LOCALAPPDATA\nvim\init.lua"
 }
 
-function psconf {
+function psp {
     nvim $PROFILE
 }
 
