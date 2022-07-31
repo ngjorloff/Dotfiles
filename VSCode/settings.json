@@ -66,7 +66,6 @@
   "editor.lineHeight": 22,
   "editor.fontWeight": "300",
   "debug.console.fontFamily": "JetBrains Mono Regular",
-  "markdown.preview.fontFamily": "JetBrains Mono Regular,-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif",
   "editor.tabCompletion": "on",
   "editor.wordWrap": "on",
   "search.showLineNumbers": true,
@@ -76,9 +75,7 @@
   "timeline.excludeSources": [],
   "editor.renderLineHighlightOnlyWhenFocus": true,
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.editor.closeOnFileDelete": true,
-  "powershell.powerShellDefaultVersion": "Windows PowerShell (x86)",
   "files.autoSave": "afterDelay",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -200,9 +197,6 @@
       }
     ]
   },
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.smoothScrolling": true,
-  "workbench.list.smoothScrolling": true,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
@@ -211,8 +205,6 @@
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   "editor.formatOnSave": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -230,8 +222,11 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.bracketPairColorization.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "terminal.integrated.fontSize": 15,
   "editor.guides.bracketPairs": "active",
-  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font Mono', 'Fira Code', 'Consolas'",
-  "workbench.colorTheme": "Default Light+"
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
 }
