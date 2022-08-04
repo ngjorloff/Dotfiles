@@ -1,14 +1,16 @@
 # Neovim
 
 Set-Alias v nvim.exe
-Set-Alias vg nvim-qt.exe
+# Set-Alias vg nvim-qt.exe
 
 # Oh my Posh
 
 $ompPath = "$env:LOCALAPPDATA\Programs\oh-my-posh\themes"
-$ompTheme = "$ompPath\nord.omp.json"
+$ompTheme = "$ompPath\darkplus.omp.json"
 
 oh-my-posh --init --shell pwsh --config "$ompTheme" | Invoke-Expression
+
+# PowerShell completion
 
 # Set-PSReadLineOption -PredictionSource HistoryAndPlugin
 # Set-PSReadLineOption -PredictionViewStyle ListView
@@ -43,6 +45,10 @@ function gsts {
 
 function gca {
     & git commit -a
+}
+
+function vg {
+    nvim -c "G"
 }
 
 # Checkout branch
