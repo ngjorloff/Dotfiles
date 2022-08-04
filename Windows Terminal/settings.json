@@ -41,7 +41,7 @@
         "defaults": 
         {
             "bellStyle": "none",
-            "colorScheme": "Dracula",
+            "colorScheme": "Dark+",
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font Mono"
