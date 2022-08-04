@@ -5,8 +5,9 @@ Set-Alias v nvim.exe
 
 # Oh my Posh
 
-$ompPath = "$env:LOCALAPPDATA\Programs\oh-my-posh\themes"
-$ompTheme = "$ompPath\darkplus.omp.json"
+$ompDirectoryPath = "$env:LOCALAPPDATA\Programs\oh-my-posh\themes"
+$ompName = "darkplus"
+$ompTheme = "$ompDirectoryPath\$ompName.omp.json"
 
 oh-my-posh --init --shell pwsh --config "$ompTheme" | Invoke-Expression
 
@@ -58,16 +59,16 @@ function co {
         [Parameter(Mandatory)]
         [ValidateNotNullOrEmpty()]
         [ArgumentCompleter({
-            param($pCmd, $pParam, $pWord, $pAst, $pFakes)
+                param($pCmd, $pParam, $pWord, $pAst, $pFakes)
 
-            $branchList = (git branch --format='%(refname:short)')
+                $branchList = (git branch --format='%(refname:short)')
 
-            if ([string]::IsNullOrWhiteSpace($pWord)) {
-                return $branchList;
-            }
+                if ([string]::IsNullOrWhiteSpace($pWord)) {
+                    return $branchList;
+                }
 
-            $branchList | Select-String "$pWord"
-        })]
+                $branchList | Select-String "$pWord"
+            })]
         [string] $branch
     )
 
